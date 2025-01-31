@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{ 
+    background-image: url('/static/styles/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:2rem;
+    background-color:#a2b9bc;
+    color:whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+    font-size: 2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+button,input{
+    font-size: 2rem;
+    padding:1rem;
+    border-radius: 10px;
+}
